@@ -44,7 +44,7 @@ public class Desafio {
             } else if (opcao == 3) {
                 System.out.println("Valor recebido: ");
                 double valor = leitura.nextDouble();
-                /*ao usar += seria o mesmo que escrever saldo = saldo + valor*/
+                /*ao usar += seria o mesmo que escrever saldo = saldo + valor */
                 saldo += valor;
                 System.out.println("Novo saldo: " + saldo);
             } else if (opcao != 4) {
